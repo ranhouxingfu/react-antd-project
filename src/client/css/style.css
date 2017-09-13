@@ -1,0 +1,594 @@
+html,
+body,
+div,
+h5,
+h6,
+p,
+ul,
+li {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* logo样式 */
+
+#logo {
+	display: block;
+	margin: 10px auto;
+	transition: all 1s;
+	width: 30px;
+}
+
+#logo:hover {
+	transform: rotate(360deg);
+}
+
+.ant-menu-item,
+.ant-menu-submenu-title {
+	padding: 0 15px;
+	position: relative;
+	display: block;
+	white-space: nowrap;
+}
+
+.ant-form-item {
+	margin-bottom: 12px;
+}
+
+
+/*头像*/
+
+.headLog {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	font-size: 24px;
+	/*margin-left: 25px;*/
+}
+
+
+/* 右侧宽度自适应 */
+
+#rightWrap {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 20px 0 20px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.right-box {
+	box-sizing: border-box;
+	position: absolute;
+	padding: 10px 15px;
+	top: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+#rightWrap .ant-menu-submenu {
+	float: right;
+}
+
+.chart-box {
+	margin-top: 15px;
+}
+
+.ege {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.ege a {
+	color: #009688;
+	font-size: 16px;
+}
+
+.lastPic {
+	display: block;
+	margin: 16% auto 0;
+}
+
+.ani-box {
+	text-align: center;
+	font-size: 20px;
+}
+
+.doclist {
+	line-height: 40px;
+}
+
+.progress-wrap {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.ant-progress-line {
+	margin: 10px 0;
+}
+
+.ant-progress-circle {
+	margin: 60px 30px;
+}
+
+.carousel-wrap {
+	width: 350px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+
+/*左侧菜单栏文本居中*/
+
+.ant-menu-item {
+	padding: 0 !important;
+	text-align: center !important;
+}
+
+
+/*表头文本居中显示*/
+
+.ant-table-thead>tr>th {
+	text-align: center !important;
+}
+
+#app #leftMenu {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	bottom: 0 !important;
+	background: #32323a;
+	/*background:#06235b;*/
+	/*background:-webkit-linear-gradient(left,#330253,#0c3877);*/
+	width: 150px;
+	height: 100%;
+	box-sizing: border-box;
+	/*z-index: 999;*/
+}
+
+#leftMenu>ul {
+	background: #393a3a;
+	/*background:-webkit-linear-gradient(left,#330253,#0c3877);*/
+}
+
+#leftMenu>ul>li,
+#leftMenu>ul>li>ul>li {
+	border-top: solid 1px #444;
+}
+
+#leftMenu>ul>li>ul {
+	background: #32323a;
+}
+
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item>a,
+.ant-menu-submenu>div>a {
+	color: white;
+}
+
+
+/*顶部固定菜单*/
+
+#topMenu {
+	height: 50px;
+	background: #2a74a9;
+	/*background: url("../images/bg.jpg") 100% no-repeat;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.topMenuBtn>li {
+	margin-right: 15px;
+}
+
+
+.ant-menu-submenu-open>div>span {
+	color: #62a8d1 !important;
+}
+
+#leftMenu>ul>li:first-of-type>div>a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*右侧内容部分*/
+
+#rightWrap {
+	padding: 0;
+}
+
+.right-box>div {
+	width: 100%;
+}
+
+#pageLocation {
+	position: fixed;
+	top: 50px;
+	height: 30px;
+	/*left: 200px;*/
+	z-index: 99;
+	/*padding: 0 15px;*/
+	/*margin-left: -15px;*/
+	background-color: #E5EBF2 !important;
+	width: 100%;
+	/*border-bottom: 1px solid  #62a8d1 ;*/
+}
+
+#pageLocation>div {
+	/*margin-left: 165px;*/
+	padding: 0 15px;
+}
+
+#pageLocation>div>span {
+	line-height: 30px;
+}
+
+.pull-right {
+	float: right;
+	/*margin-top: 3px;*/
+}
+
+
+/*首页*/
+
+.home-first-row .home-first-row-piece {
+	height: 120px;
+	background: #FAFAFA;
+	width: 95%;
+	border-radius: 5px;
+	border-top: 0.2em solid #6ECFF5;
+}
+
+.home-first-row-remind {
+	text-align: center;
+}
+
+.home-first-row-remind>h1 {
+	font-weight: 700;
+	padding: 20px 0 10px 0;
+}
+
+.white {
+	color: #ffffff !important;
+}
+
+.blue {
+	color: #5ab6df !important
+}
+
+.red {
+	color: #ff6c60 !important;
+}
+
+.yellow {
+	color: #f8d347 !important;
+}
+
+.purple {
+	color: #a659fc !important
+}
+
+.green {
+	color: #41cac0 !important;
+}
+
+.orange {
+	color: #fccb48 !important;
+}
+
+.deeporange {
+	color: #f29503 !important;
+}
+
+.deepgreen {
+	color: #65cea7 !important;
+}
+
+.deepblue {
+	color: #44b6ae !important;
+}
+
+.grey {
+	color: #949FB1;
+}
+
+.lightGreen {
+	color: #93c059 !important;
+}
+
+.iColor {
+	color: #777 !important;
+}
+
+.username{
+	color: white;
+}
+/*新增*/
+
+.addspan {
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.home-first-row-icon {
+	text-align: center;
+}
+
+.home-first-row-icon>i {
+	font-weight: 800;
+	font-size: 38px;
+	display: block;
+	padding: 30px 0;
+}
+
+.home-first-row-chart-container {
+	margin-top: 15px;
+}
+
+.home-first-row-chart {
+	width: 98.6%;
+}
+
+.home-first-row-chart>div {
+	background: #fafafa;
+}
+
+.home-first-row-chart>div:first-of-type>p,
+.home-first-row-chart>div:nth-of-type(2)>p {
+	font-size: 16px;
+	background: #6ECFF5;
+	padding: 5px;
+	color: white;
+}
+
+.home-first-row-chart>div>p>.white {
+	margin-right: 5px;
+}
+
+.home-first-row-last,
+.home-first-row-other {
+	background: #fafafa;
+	border-radius: 5px;
+	border-top: 0.2em solid #6ECFF5;
+}
+
+.home-first-row-last>p,
+.home-first-row-other>p {
+	padding: 5px;
+	color: #777;
+	font-size: 14px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.first-row-steps {
+	margin-top: 15px;
+	height: 220px;
+}
+
+.home-first-row-last {
+	margin-top: 15px;
+	height: 250px;
+	background: #fafafa;
+}
+
+.first-row-steps>div>span {
+	padding: 0 15px;
+}
+
+.first-row-steps>div>div {
+	margin: 5px 0;
+}
+
+.home-first-row-otherdiv {
+	margin-top: 15px;
+}
+
+.home-first-row-other {
+	border-radius: 5px;
+	width: 95.9%;
+	height: 250px;
+	background: #fafafa;
+}
+
+.home-first-row-contractDiv {
+	height: 215px;
+	overflow-y: auto;
+}
+
+.home-first-row-contract>li,
+.home-first-row-notice>li {
+	padding: 5px 0;
+}
+
+.home-first-row-contract>li>span:first-of-type {
+	padding-left: 10px;
+}
+
+.home-first-row-contract>li>span:nth-of-type(2) {
+	float: right;
+	margin-right: 10px;
+}
+
+.home-first-row-notice>li>span:first-of-type {
+	width: 65%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+.home-first-row-notice>li>span:last-of-type {
+	float: right;
+	margin-right: 10px;
+}
+
+.home-first-row-contract>li>span:first-of-type {
+	width: 65%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+	.home-first-row>div:nth-of-type(2) {
+		margin-top: 15px;
+	}
+}
+
+
+/*表格高度*/
+
+.ant-table-tbody>tr>td,
+.ant-table-thead>tr>th {
+	padding: 8px;
+}
+
+.topMenuBtn:hover li div span {
+	color: #62a8d1 !important
+}
+
+
+/*查询条件高度*/
+
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header>.arrow {
+	line-height: 30px;
+}
+
+.topMenuBtn {
+	background: none;
+	width: 100px;
+	float: right;
+	margin-right: 15px;
+}
+
+
+/*进度条*/
+
+.steps-content {
+	margin-top: 16px;
+	border: 1px dashed #e9e9e9;
+	border-radius: 6px;
+	background-color: #fafafa;
+	min-height: 200px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.steps-action {
+	margin-top: 5px;
+}
+
+.ant-progress-circle {
+	margin: 15px 10px;
+}
+
+.ant-progress-line {
+	width: 80%;
+}
+
+
+/*选项卡*/
+
+.card-container {
+	background: #ECECEC;
+	overflow: hidden;
+	padding: 24px;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-content {
+	height: 120px;
+	margin-top: -16px;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-content>.ant-tabs-tabpane {
+	background: #fff;
+	padding: 16px;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+	border-color: transparent;
+}
+
+.card-container>.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab-active {
+	border-color: #fff;
+}
+
+h3 {
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 10px;
+}
+
+
+/*table搜索栏*/
+
+.custom-filter-dropdown {
+	padding: 8px;
+	border-radius: 6px;
+	background: #fff;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.custom-filter-dropdown input {
+	width: 130px;
+	margin-right: 8px;
+}
+
+.highlight {
+	color: #f50;
+}
+
+
+/*自定义button组件*/
+
+.redBtton {
+	background: rgba(255, 85, 0, 1);
+	color: white;
+}
+
+.greenBtton {
+	background: rgba(135, 208, 104, 1);
+	color: white;
+}
+
+.blueBtton {
+	background: rgba(16, 142, 233, 1);
+	color: white;
+}
+
+.redBtton:hover,
+.redBtton>span:hover .redBtton {
+	background: rgba(255, 85, 0, 0.8);
+	color: white;
+	border-color: rgba(255, 85, 0, 0.8);
+}
+
+.greenBtton:hover,
+.greenBtton>span:hover .greenBtton {
+	background: rgba(135, 208, 104, 0.8);
+	color: white;
+	border-color: rgba(135, 208, 104, 0.8);
+}
+
+.blueBtton:hover,
+.blueBtton>span:hover .blueBtton {
+	background: rgba(16, 142, 233, 0.8);
+	color: white;
+	border-color: rgba(16, 142, 233, 0.8);
+}
