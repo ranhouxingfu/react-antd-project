@@ -67,7 +67,7 @@ export default class Sider extends React.Component {
 		var route = this.props.location.pathname;
 		this.setState({
 			current: routeMap[route] || '0',
-			username: 'luckykun'
+			username: 'admin'
 		});
 
 	}
